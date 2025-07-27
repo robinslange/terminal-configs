@@ -1,0 +1,81 @@
+# ==========================
+# WINDOW SETTINGS
+# ==========================
+window:
+  padding:
+    x: 6
+    y: 6
+  decorations: full
+  startup_mode: Windowed
+  title: Terminal
+
+# ==========================
+# FONT CONFIGURATION
+# ==========================
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+  bold:
+    family: JetBrains Mono
+    style: Bold
+  italic:
+    family: JetBrains Mono
+    style: Italic
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+  size: 14.0
+
+# ==========================
+# COLORS (OPTIMIZED FOR TMUX)
+# ==========================
+colors:
+  primary:
+    background: '#1e1e1e'
+    foreground: '#d4d4d4'
+  
+  cursor:
+    text: '#1e1e1e'
+    cursor: '#d4d4d4'
+  
+  normal:
+    black:   '#1e1e1e'
+    red:     '#f44747'
+    green:   '#4ec9b0'
+    yellow:  '#ffcc02'
+    blue:    '#0078d4'
+    magenta: '#bc05bc'
+    cyan:    '#0598bc'
+    white:   '#d4d4d4'
+  
+  bright:
+    black:   '#808080'
+    red:     '#f44747'
+    green:   '#4ec9b0'
+    yellow:  '#ffcc02'
+    blue:    '#0078d4'
+    magenta: '#bc05bc'
+    cyan:    '#0598bc'
+    white:   '#d4d4d4'
+
+# ==========================
+# PERFORMANCE OPTIMIZATIONS
+# ==========================
+scrolling:
+  history: 50000
+  multiplier: 3
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+live_config_reload: true
+
+# ==========================
+# KEY BINDINGS
+# ==========================
+key_bindings:
+  - { key: V, mods: Command, action: Paste }
+  - { key: C, mods: Command, action: Copy }
+  - { key: Q, mods: Command, action: Quit }
